@@ -512,7 +512,7 @@ export default function Form() {
     setError("");
 
     try {
-      const res = await fetch("https://connecta-backend.onrender.com/form", {
+      const res = await fetch("https://connecta-2olt.vercel.app/", {
         method:  "POST",
         headers: { "Content-Type": "application/json" },
         body:    JSON.stringify(form),
