@@ -512,7 +512,7 @@ export default function Form() {
     setError("");
 
     try {
-      const res = await fetch("http://localhost:5000/form", {
+      const res = await fetch("https://connecta-backend.onrender.com/form", {
         method:  "POST",
         headers: { "Content-Type": "application/json" },
         body:    JSON.stringify(form),
